@@ -1,0 +1,30 @@
+
+
+.profile-Card{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(43, 20, 20, 0.2);
+    margin: 10px;
+}
+img{
+    width: 150px; height: 150px; border-radius: 50%; box-shadow: 0px 4px 8px rgba(68, 21, 21, 0.2);
+}
+h3{
+    color: blue; font-size: 27px; font-family: Verdana, Geneva, Tahoma, sans-serif; text-shadow: 1px 2px 3px rgb(71, 71, 119);
+}
+#generateBtn{
+    background-color: rgb(57, 57, 250);
+    border: 1px solid blue; border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(172, 172, 247);
+    margin-top: 10px; margin-left: 100px; padding: 2px 10px;
+    cursor: pointer; color: rgb(251, 251, 252);
+} 
+p{
+    font-weight: bold; color: rgb(85, 85, 150);
+}
+#generateBtn:hover{
+    background-color: rgb(46, 46, 167);
+}
