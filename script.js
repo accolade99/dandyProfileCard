@@ -11,7 +11,7 @@ function createProfileCard (){
     //create image element for the profile card
     const profileImage = document.createElement("img");
     //add image to img element
-    profileImage.src ="myPhoto.jpg";
+    profileImage.src ="./myPhoto.jpg";
     //create h3 element for name
     const profileName = document.createElement("h3");
     profileName.textContent = "Ama Dandy";
@@ -27,4 +27,13 @@ function createProfileCard (){
     
 }
 //add event listener(click)
-generateBtn.addEventListener("click", createProfileCard);
+//generateBtn.addEventListener("click", createProfileCard);
+
+document.addEventListener('DOMContentLoaded', () => {
+    const appContainer = document.getElementById("app");
+    const generateBtn = document.getElementById("generateBtn");
+    
+    // Your existing createProfileCard function here
+    
+    generateBtn.addEventListener("click", createProfileCard);
+});
